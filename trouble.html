@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>故障报修</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+
+<body>
+    <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">故障报备</h1>
+    </header>
+    <div class="mui-content">
+        <div class="mui-input-row mui-search">
+            <input type="search" class="mui-input-clear" placeholder="输入设备固定资产编号">
+        </div>
+        <form class="mui-input-group">
+            <div class="mui-input-row">
+		        <label>设备编号：</label>
+		        <input type="text" class="mui-input-clear" placeholder="请输入设备编号">
+		    </div>
+		    <div class="mui-input-row">
+		        <label>设备名称：</label>
+		        <input type="text" class="mui-input-clear" placeholder="请输入设备名称">
+		    </div>
+		    <div class="mui-input-row">
+		        <label>报修人员：</label>
+		        <input type="text" class="mui-input-clear" placeholder="请输入报修人员名">
+		    </div>
+		    <div class="mui-input-row">
+		        <label>故障描述：</label>
+		        <textarea name="" rows="10" cols="20" placeholder="请输入用户名"></textarea>
+		    </div>
+		    <div class="mui-button-row">
+		        <button type="button" class="mui-btn mui-btn-warning" >提交</button>
+		    </div>
+        </form>
+    </div>
+    <!-- 底部导航栏补白 -->
+    <div class="footer_blank"></div>
+    <!-- 底部导航栏 -->
+    <div class="footer">
+        <a href="index.html" title="" class="on">
+					<img src="img/设备.png" alt=""><div>设备详情</div></a>
+        <a href="trouble.html" title="">
+					<img src="img/修理.png" alt=""><div>设备报修</div></a>
+        <a href="repair.html" title="">
+					<img src="img/报修管理.png" alt=""><div>维修情况</div></a>
+    </div>
+    <script src="js/mui.min.js"></script>
+    <script type="text/javascript">
+    mui.init()
+    </script>
+</body>
+
+</html>

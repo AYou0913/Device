@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>故障维修</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">故障维修</h1>
+		</header>
+		<div class="mui-content" style="background: #eee">
+			<form class="mui-input-group">
+				<fieldset id="">
+					<legend>
+                        <h3>报维信息</h3>               
+                    </legend>
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+                            <p>设备编号<span>20000577</span></p>
+                        </li>
+						<li class="mui-table-view-cell">
+                            <span>设备编号</span><p>20000577</p>
+                        </li>
+						<li class="mui-table-view-cell">
+                            <span>设备编号</span><p>20000577</p>
+                        </li>
+                        <li class="mui-table-view-cell">
+                            <span>故障描述</span><p>123456798</p>
+                        </li>
+					</ul>
+
+				</fieldset>
+				<fieldset id="">
+					<legend>                      
+                             <h3 style="background: url(img/icon_area@3x.png) no-repeat;background-size: contain;text-indent: 2rem;color: orange">维修操作</h3> 
+                    </legend>
+					<div class="mui-input-row">
+						<label>解决方法：</label>
+						<textarea id="textarea" rows="5" placeholder="请输入（必填）"></textarea>
+					</div>
+					<div class="mui-input-row">
+						<label>更换配件：</label>
+						<textarea id="textarea" rows="5" placeholder="请输入（必填）"></textarea>
+					</div>
+
+				</fieldset>
+				<div class="mui-button-row">
+					<button type="button" class="mui-btn mui-btn-warning">维修完成</button>
+				</div>
+			</form>
+		</div>
+
+		<script src="js/mui.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>
